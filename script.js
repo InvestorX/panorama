@@ -13,7 +13,7 @@ var infospotPositions = [
 
 container = document.querySelector( '#container' );
 
-panorama = new PANOLENS.ImagePanorama( 'data://../img/building.jpg' );
+panorama = new PANOLENS.ImagePanorama( 'https://investorx.github.io/panorama/img/building.jpg' );
 panorama.addEventListener( 'enter-fade-start', function(){
   viewer.tweenControlCenter( lookAtPositions[0], 0 );
 } );
